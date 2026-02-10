@@ -117,17 +117,17 @@ nav ul li a.active::after {
 
 .hero.hero-home {
   background-image: linear-gradient(rgba(107, 138, 94, 0.85), rgba(107, 138, 94, 0.9)),
-    url('https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=1600&q=80');
+    url('images/home_hero.jpg');
 }
 
 .hero.hero-about {
   background-image: linear-gradient(rgba(107, 138, 94, 0.85), rgba(107, 138, 94, 0.9)),
-    url('https://images.unsplash.com/photo-1558171813-4c088753af8f?w=1600&q=80');
+    url('images/about_hero.jpg');
 }
 
 .hero.hero-shop {
   background-image: linear-gradient(rgba(107, 138, 94, 0.85), rgba(107, 138, 94, 0.9)),
-    url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1600&q=80');
+    url('images/shop_hero.jpg');
 }
 
 .hero.hero-gallery {
@@ -137,21 +137,23 @@ nav ul li a.active::after {
 
 .hero.hero-contact {
   background-image: linear-gradient(rgba(107, 138, 94, 0.85), rgba(107, 138, 94, 0.9)),
-    url('https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?w=1600&q=80');
+    url('images/contact_hero.jpg');
 }
 
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 2px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .hero p {
   font-size: 1.25rem;
   max-width: 600px;
   margin: 0 auto 2rem;
-  opacity: 0.95;
+  opacity: 1;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
 }
 
 .btn {
